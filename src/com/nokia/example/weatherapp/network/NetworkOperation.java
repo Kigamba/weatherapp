@@ -1,0 +1,38 @@
+/**
+* Copyright (c) 2012-2013 Nokia Corporation. All rights reserved.
+* Nokia and Nokia Connecting People are registered trademarks of Nokia Corporation. 
+* Oracle and Java are trademarks or registered trademarks of Oracle and/or its
+* affiliates. Other product and company names mentioned herein may be trademarks
+* or trade names of their respective owners. 
+* See LICENSE.TXT for license information.
+*/
+
+package com.nokia.example.weatherapp.network;
+
+/**
+ * Abstract class for network operations. 
+ */
+public abstract class NetworkOperation
+        implements NetworkListener {
+
+    /**
+     * Starts the operation in asynchronous manner.
+     */
+    public abstract void start();
+
+    /**
+     * Default implementation for interface callback.
+     * @param response
+     */
+    public void networkHttpPostResponse(String response) {
+        System.out.println("Post response IGNORED");
+    }
+
+    /**
+     * Default implementation for interface callback.
+     * @param response
+     */
+    public void networkHttpGetResponse(String response) {
+        System.out.println("Get response IGNORED");
+    }
+}
