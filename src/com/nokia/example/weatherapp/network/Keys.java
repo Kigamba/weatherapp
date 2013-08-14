@@ -13,5 +13,5 @@ package com.nokia.example.weatherapp.network;
  */
 public class Keys {
    public final static String WORLDWEATHERONLINE = "0000000000000000000000";
-   public final static String APPI = "";
+   public final static String APPID = "";
 }
