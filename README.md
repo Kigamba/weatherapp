@@ -20,9 +20,11 @@ This example demonstrates:
 * Supporting different locationing methods on a range of devices
 * Using JSON-based web services
 
-The application is hosted in GitHub: https://github.com/nokia-developer/weatherapp
+The application is hosted in GitHub:
+https://github.com/nokia-developer/weatherapp
 
-For more information on the implementation, visit the wiki page: https://github.com/nokia-developer/weatherapp/wiki
+For more information on the implementation, visit Java Developer's Library:
+http://developer.nokia.com/Resources/Library/Java/#!code-examples/location-services-weatherapp.html
 
 
 1. Prerequisites
